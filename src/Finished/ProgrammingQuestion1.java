@@ -96,7 +96,6 @@ public class ProgrammingQuestion1 {
 		int[] array = new int[list.size()];
 		for (int i = 0; i < list.size(); ++i)
 			array[i] = list.get(i);
-//		Arrays.sort(array);
 		long result = getNumOfInversions(array);
 		System.out.println(result);
 	}
